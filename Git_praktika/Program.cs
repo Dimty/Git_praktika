@@ -4,7 +4,10 @@
     {
         public static void Main(string[] args)
         {
-            
+            foreach (var item in 5)
+            {
+                Console.WriteLine(item);
+            }
         }
 
         static void Sum(int[] arr)
