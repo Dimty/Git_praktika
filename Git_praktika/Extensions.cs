@@ -9,5 +9,12 @@ namespace Git_praktika
                 yield return i;
             }
         }
+        public static IEnumerator<int> GetEnumerator (this char numb)
+        {
+            for (int i = 0; i < (int)numb; i++)
+            {
+                yield return i;
+            }
+        }
     }
 }

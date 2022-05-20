@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            foreach (var item in 5)
+            foreach (var item in 'a')
             {
                 Console.WriteLine(item);
             }
